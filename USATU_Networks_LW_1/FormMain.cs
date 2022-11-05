@@ -9,6 +9,11 @@ namespace USATU_Networks_LW_1
         public FormMain()
         {
             InitializeComponent();
+            SetNetworkInformationToTextBoxes();
+        }
+
+        private void SetNetworkInformationToTextBoxes()
+        {
             var networkStatus = NetworkTools.GetFirstActiveInterfaceStatus();
             textBoxBroadcastAddress.Text = networkStatus.BroadcastAddress;
             textBoxNetworkAddress.Text = networkStatus.NetworkAddress;
