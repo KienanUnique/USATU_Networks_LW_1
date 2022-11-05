@@ -56,7 +56,7 @@
     <Compile Include="NetworkInformation.cs" />
     <Compile Include="NetworkTools.cs" />
     <Compile Include="PingRequestInfo.cs" />
-    <Compile Include="PingStatus.cs" />
+    <Compile Include="PingStringConstants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMain.resx">

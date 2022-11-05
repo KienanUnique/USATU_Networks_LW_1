@@ -22,7 +22,7 @@ namespace USATU_Networks_LW_1
             }
             catch
             {
-                return PingStatus.NoHostName;
+                return PingStringConstants.NoHostName;
             }
         }
 
@@ -79,14 +79,14 @@ namespace USATU_Networks_LW_1
                 var reply = ping.Send(checkIP, TimeOut);
                 if (reply != null && reply.Status == IPStatus.Success)
                 {
-                    return new PingRequestInfo(checkIP, PingStatus.Ok, reply.RoundtripTime, GetHostName(checkIP));
+                    return new PingRequestInfo(checkIP, PingStringConstants.Ok, reply.RoundtripTime, GetHostName(checkIP));
                 }
 
-                return new PingRequestInfo(checkIP, PingStatus.NotOk);
+                return new PingRequestInfo(checkIP, PingStringConstants.NotOk);
             }
             catch
             {
-                return new PingRequestInfo(checkIP, PingStatus.Error);
+                return new PingRequestInfo(checkIP, PingStringConstants.Error);
             }
         }
 
