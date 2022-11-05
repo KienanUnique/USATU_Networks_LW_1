@@ -6,4 +6,4 @@ C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USAT
 C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USATU_Networks_LW_1.csproj.GenerateResource.Cache
 C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USATU_Networks_LW_1.exe
 C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USATU_Networks_LW_1.pdb
-C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USATU_Networks_LW_1.Form1.resources
+C:\Users\wi\RiderProjects\USATU_Networks_LW_1\USATU_Networks_LW_1\obj\Debug\USATU_Networks_LW_1.FormMain.resources
