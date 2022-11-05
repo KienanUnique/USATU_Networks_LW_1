@@ -9,8 +9,8 @@
 
         public string HostName { get; private set; }
 
-        public PingRequestInfo(string ip, string status, float responseTime = PingStatus.NoResponseTime,
-            string hostName = PingStatus.NoHostName) : this()
+        public PingRequestInfo(string ip, string status, float responseTime = PingStringConstants.NoResponseTime,
+            string hostName = PingStringConstants.NoHostName) : this()
         {
             IP = ip;
             Status = status;

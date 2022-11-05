@@ -1,6 +1,6 @@
 ﻿namespace USATU_Networks_LW_1
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -305,7 +305,7 @@
             this.labelSubnetMask.Text = "Subnet mask:";
             this.labelSubnetMask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -316,7 +316,7 @@
             this.Controls.Add(this.dataGridPingRequests);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Location = new System.Drawing.Point(15, 15);
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "LW 1";
             ((System.ComponentModel.ISupportInitialize) (this.dataGridPingRequests)).EndInit();
             this.panelFromAddress.ResumeLayout(false);

@@ -4,11 +4,16 @@ using System.Windows.Forms;
 
 namespace USATU_Networks_LW_1
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
+            SetNetworkInformationToTextBoxes();
+        }
+
+        private void SetNetworkInformationToTextBoxes()
+        {
             var networkStatus = NetworkTools.GetFirstActiveInterfaceStatus();
             textBoxBroadcastAddress.Text = networkStatus.BroadcastAddress;
             textBoxNetworkAddress.Text = networkStatus.NetworkAddress;
