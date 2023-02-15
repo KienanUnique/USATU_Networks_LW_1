@@ -38,7 +38,6 @@ namespace USATU_Networks_LW_1
 
             dataGridPingRequests.DataSource =
                 NetworkTools.GetScannedRangeOfIP(textBoxFromAddress.Text, textBoxToAddress.Text).ToArray();
-            Thread.Sleep(1000);
 
             Application.DoEvents();
             buttonScanRangeIP.MouseClick += buttonScanRangeIP_MouseClick;
